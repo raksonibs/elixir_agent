@@ -44,7 +44,7 @@ defmodule NewRelic.Mixfile do
       {:plug_cowboy, "~> 2.0", optional: true},
       # Optional Instrumentation:
       {:ecto_sql, ">= 3.4.0", optional: true},
-      {:ecto, ">= 3.4.1", optional: true}
+      {:ecto, github: "coop/ecto", ref: "d710bf9", override: true}
     ]
   end
 
